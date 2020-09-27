@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:orientation="vertical"
+    tools:context=".AddCropActivity">
+
+    <EditText
+        android:id="@+id/remindertitle"
+        android:hint="Reminder Name"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_login_person"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/reminderdescription"
+        android:hint="Reminder Description"
+        android:singleLine="false"
+        android:drawableLeft="@drawable/ic_login_address"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/reminderdate"
+        android:hint="Last Date"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_login_date"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/remindersubmit"
+        android:background="@drawable/custombtnmain"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Reminder" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1077796599216",
+    "firebase_url": "https://smartagri-hackathon.firebaseio.com",
+    "project_id": "smartagri-hackathon",
+    "storage_bucket": "smartagri-hackathon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077796599216:android:b9c6ea5802359e5a1d1275",
+        "android_client_info": {
+          "package_name": "com.example.smartagri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077796599216-f1gm8uel62q64nl5kq7lg4uk5l1frno7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1Ttqbqc3Jme9DmavoT-rxFOIAeVHmRMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077796599216-f1gm8uel62q64nl5kq7lg4uk5l1frno7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

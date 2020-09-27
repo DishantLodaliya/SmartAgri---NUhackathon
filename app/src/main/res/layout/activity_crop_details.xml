@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundmain"
+    tools:context=".CropDetailsActivity">
+
+<LinearLayout
+    android:background="@drawable/custombtnmain"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Crop Details"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="Crop : "
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/cropdetails_crop"
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="kapas chhe bhai"
+            android:textColor="#FFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="Crop Quantity: "
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/cropdetails_quantity"
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="quantity"
+            android:textColor="#FFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="Crop : "
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/cropdetails_price"
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="price"
+            android:textColor="#FFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="Last Date : "
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/cropdetails_date"
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="date"
+            android:textColor="#FFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="Detailed Description : "
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/cropdetails_details"
+            style="@style/Text14"
+            android:padding="5dp"
+            android:text="detailed"
+            android:textColor="#FFFF" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/custombtnmain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="Crop Photo"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/cropimage"
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="220dp"/>
+
+    <LinearLayout
+        android:background="@drawable/custombtnmain"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:text="Bidding Details"/>
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cropdetails_bidlist"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <EditText
+            android:id="@+id/crop_details_makeprice"
+            android:layout_weight="0.7"
+            android:hint="Price to Bid"
+            android:background="@drawable/custombtnmain"
+            android:textColorHint="#FFFF"
+           android:padding="13dp"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_weight="0.3"
+            android:id="@+id/cropdetails_makebid"
+            android:background="@drawable/custombtnmain"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make Bid" />
+
+    </LinearLayout>
+
+</LinearLayout>

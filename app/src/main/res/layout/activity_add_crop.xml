@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmain"
+    android:orientation="vertical"
+    tools:context=".AddCropActivity">
+
+    <EditText
+        android:id="@+id/addcrop_name"
+        android:hint="Crop Name"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_login_person"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addcrop_details"
+        android:hint="Crop Description"
+        android:singleLine="false"
+        android:drawableLeft="@drawable/ic_login_address"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addcrop_quantity"
+        android:hint="Crop Quantity (in Quintal)"
+        android:inputType="numberDecimal"
+        android:drawableLeft="@drawable/ic_login_address"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addcrop_initialprice"
+        android:hint="Initial Price"
+        android:inputType="numberDecimal"
+        android:drawableLeft="@drawable/ic_login_address"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addcrop_date"
+        android:hint="Last Date"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/ic_login_address"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/addcrop_btnphotofromcamera"
+            android:background="@drawable/custombtnmain"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo From camera" />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/addcrop_btnphotofromgalary"
+            android:background="@drawable/custombtnmain"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo From Galary" />
+    </LinearLayout>
+
+<ImageView
+    android:id="@+id/image"
+    android:visibility="gone"
+    android:layout_gravity="center"
+    android:layout_width="200dp"
+    android:layout_height="200dp">
+
+</ImageView>
+
+    <Button
+        android:id="@+id/addcrop_btnsubmit"
+        android:background="@drawable/custombtnmain"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+</LinearLayout>

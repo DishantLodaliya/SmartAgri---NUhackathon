@@ -1,0 +1,2 @@
+rootProject.name='SmartAgri'
+include ':app'

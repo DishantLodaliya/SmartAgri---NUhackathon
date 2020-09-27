@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundmain"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <TableLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <TableRow
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:id="@+id/btnmarketplace"
+                android:layout_height="150dp"
+                android:src="@drawable/marketplace"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/btnsuggestions"
+                android:layout_height="150dp"
+                android:src="@drawable/suggestions"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:id="@+id/btnreminders"
+                android:layout_height="150dp"
+                android:src="@drawable/reminders"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp" />
+
+            <ImageView
+                android:id="@+id/btngovtprice"
+                android:layout_height="150dp"
+                android:src="@drawable/govtprice"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="3dp">
+
+            <ImageView
+                android:id="@+id/btnnetwork"
+                android:layout_height="150dp"
+                android:src="@drawable/network"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp"
+                />
+
+            <ImageView
+                android:id="@+id/btnlogout"
+                android:layout_height="150dp"
+                android:src="@drawable/logout"
+                android:layout_width="100dp"
+                android:layout_weight="5"
+                android:layout_margin="3dp"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>
